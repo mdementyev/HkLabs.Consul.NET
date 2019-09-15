@@ -25,5 +25,13 @@ namespace HkLabs.Consul.NET
         /// <param name="b">The integer to subtract.</param>
         /// <returns>The difference between the two integers.</returns>
         public static int Subtract(int a, int b) => a - b;
+        
+        /// <summary>
+        /// Multiplies one integer from another.
+        /// </summary>
+        /// <param name="a">The original integer.</param>
+        /// <param name="b">The integer to multiply with.</param>
+        /// <returns>The product of the two integers.</returns>
+        public static int Product(int a, int b) => a * b;
     }
 }

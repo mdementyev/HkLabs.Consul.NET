@@ -61,3 +61,5 @@ steps:
   condition: ne(variables['codecov_token'], '')
   timeoutInMinutes: 3
   continueOnError: true
+  env:
+    CODECOV_TOKEN: $(CODECOV_TOKEN)

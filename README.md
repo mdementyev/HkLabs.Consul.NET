@@ -3,6 +3,7 @@
 ***An awesome template for your awesome library***
 
 [![NuGet package](https://img.shields.io/nuget/v/HkLabs.Consul.NET.svg)](https://nuget.org/packages/HkLabs.Consul.NET)
+[![codecov](https://codecov.io/gh/mdementyev/HkLabs.Consul.NET/branch/master/graph/badge.svg)](https://codecov.io/gh/mdementyev/HkLabs.Consul.NET)
 
 ## Features
 

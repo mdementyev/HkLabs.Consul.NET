@@ -8,7 +8,7 @@ steps:
   inputs:
     command: push
     packagesToPush: $(Pipeline.Workspace)/deployables-Windows/*.nupkg
-    nuGetFeedType: internal
-    publishVstsFeed: $(ci_feed)
-    allowPackageConflicts: true
+    nuGetFeedType: external
+    publishFeedCredentials: $(ci_feed)
+    allowPackageConflicts: false
   condition: and(succeeded(), ne(variables['ci_feed'], ''), ne(variables['Build.Reason'], 'PullRequest'))

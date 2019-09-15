@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{C06D702E-6FC7-453B-BDDF-608F825EC003}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkLabs.Consul.NET", "HkLabs.Consul.NET\HkLabs.Consul.NET.csproj", "{C06D702E-6FC7-453B-BDDF-608F825EC003}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Tests", "Library.Tests\Library.Tests.csproj", "{DC5F3D1C-A9A3-44B7-A3C0-82C1FF4C3336}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkLabs.Consul.NET.Tests", "HkLabs.Consul.NET.Tests\HkLabs.Consul.NET.Tests.csproj", "{DC5F3D1C-A9A3-44B7-A3C0-82C1FF4C3336}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

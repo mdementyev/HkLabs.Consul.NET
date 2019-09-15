@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Library\Library.csproj" />
+    <ProjectReference Include="..\HkLabs.Consul.NET\HkLabs.Consul.NET.csproj" />
   </ItemGroup>
 
   <ItemGroup>

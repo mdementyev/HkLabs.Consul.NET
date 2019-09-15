@@ -25,7 +25,7 @@ public class CalculatorTests
         Assert.Equal(-1, Calculator.Subtract(1, 2));
 #endif
     }
-    
+
     [Fact]
     public void Product()
     {
